@@ -1,0 +1,74 @@
+body {
+  background-color: #0E8982;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.header {
+  font-size: 35px;
+  text-align: center;
+}
+
+.header img {
+  width: 500px;
+  height: auto;
+}
+
+.gender, .confidence, .wage, .actions {
+  padding: 10px 50px 15px 50px;
+  background-color: #b4cfcd;
+}
+
+.gender img{
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+.wage img{
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+.confidence img{
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+/* could not figure out how to combine the img css for gender, confidence, and
+wage classes */
+
+.content {
+  padding: 0px 300px 0px 300px;
+}
+
+/* Add a black background color to the top navigation */
+.nav-bar {
+  text-align: center;
+  background-color: #0A625C;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.nav-bar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.nav-bar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
