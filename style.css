@@ -4,6 +4,7 @@ body {
   color: white;
 }
 
+/* use flex for header/title page */
 .header {
   display: flex;
   font-size: 35px;
@@ -14,36 +15,39 @@ body {
   align-content: space-between;
 }
 
+/* center image and change size */
 .header img {
   width: 500px;
   height: auto;
 }
 
+/* removing top margin from paragragh in header */
 .header h4 {
   margin-top: 0px;
 }
 
+/* created a background box for info and action page */
 .gender, .confidence, .wage, .actions {
   padding: 10px 50px 15px 50px;
   background-color: #b4cfcd;
 }
 
+/* fit img inside background box */
 .gender img{
   max-width: 100%;
   height: auto;
-  width: auto\9;
 }
 
+/* fit img inside background box */
 .wage img{
   max-width: 100%;
   height: auto;
-  width: auto\9;
 }
 
+/* fit img inside background box */
 .confidence img{
   max-width: 100%;
   height: auto;
-  width: auto\9;
 }
 
 /* could not figure out how to combine the img css for gender, confidence, and
